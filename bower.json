@@ -1,0 +1,26 @@
+{
+  "name": "ado-ng-system-logs",
+  "description": "Angular.js 1.x module for showing system logs",
+  "main": "./dist/ado-ng-system-logs.js",
+  "authors": [
+    "AdoPisoWiFi"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "adopisowifi",
+    "timer-settings"
+  ],
+  "homepage": "https://github.com/AdoPisoWiFi/ado-ng-system-logs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ado-save-config-btn": "^1.0.3",
+    "ado-ng-http-error": "^0.0.2",
+    "angular-toastr": "^2.1.1"
+  }
+}

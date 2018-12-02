@@ -1,0 +1,32 @@
+{
+  "name": "@adopisowifi/ng-system-logs",
+  "version": "0.1.0",
+  "description": "Angular.js 1.x module for showing system logs",
+  "main": "dist/ado-ng-system-logs.js",
+  "scripts": {
+    "publish-package": "git push && git push --tags && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdoPisoWiFi/ado-ng-system-logs.git"
+  },
+  "keywords": [
+    "adopisowifi",
+    "timer-settings"
+  ],
+  "author": "AdoPisoWiFi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdoPisoWiFi/ado-ng-system-logs/issues"
+  },
+  "homepage": "https://github.com/AdoPisoWiFi/ado-ng-system-logs#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-angular-templatecache": "^2.2.5",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "@adopisowifi/ng-http-error": "0.0.2"
+  }
+}

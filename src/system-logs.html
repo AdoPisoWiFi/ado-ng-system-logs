@@ -1,0 +1,25 @@
+
+<div ng-if="$ctrl.logs.length === 0">
+  <strong>
+    No logs to show.
+  </strong>
+</div>
+
+<table class="table table-bordered" ng-show="$ctrl.logs.length > 0">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Message</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="log in $ctrl.logs">
+      <td>{{log.type}}</td>
+      <td>{{log.message}}</td>
+      <td>{{log.date | date:'medium'}}</td>
+    </tr>
+  </tbody>
+</table>
+
+
