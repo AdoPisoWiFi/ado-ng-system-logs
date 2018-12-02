@@ -19,7 +19,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="log in $ctrl.logs">
+    <tr ng-repeat="log in $ctrl.logs | orderBy:'date':true">
       <td>{{log.type}}</td>
       <td>{{log.message}}</td>
       <td>{{log.date | date:'medium'}}</td>
