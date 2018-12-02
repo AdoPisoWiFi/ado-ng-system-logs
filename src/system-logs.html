@@ -5,7 +5,10 @@
   </strong>
 </div>
 
-<button class="btn btn-danger" ng-click="$ctrl.clear()">Clear Logs</button>
+
+<p>
+<button type="button" class="btn btn-danger" ng-click="$ctrl.clear()" ng-show="$ctrl.logs.length > 0">Clear Logs</button>
+</p>
 
 <table class="table table-bordered" ng-show="$ctrl.logs.length > 0">
   <thead>
